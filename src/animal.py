@@ -5,7 +5,7 @@ import torch.nn as nn
 #学習時に使ったのと同じ学習済みモデルをインポート
 from torchvision.models import resnet18 
 
-# 学習済みモデルに合わせた前処理を追加
+# 学習済みモデルに合わせた前処理を追加 。g
 transform = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
